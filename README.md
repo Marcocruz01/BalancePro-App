@@ -24,8 +24,8 @@ El objetivo es ofrecer una base sólida y segura para cualquier aplicación web 
   - Enlace temporal con expiración para asignar una nueva contraseña.  
 - **Mensajes personalizados**: Feedback dinámico según la situación (cuenta creada, sesión iniciada, confirmación pendiente, errores, etc.).  
 - **Página 404 personalizada**: Manejo de rutas inexistentes con un diseño propio.  
-- **Gestión de sesiones**: Manejo de cookies o JWT con control de acceso a rutas privadas.  
-- **Buenas prácticas de seguridad**: Hash de contraseñas, tokens expiran, protección CSRF/XSS y limitación de intentos de login.  
+- **Gestión de sesiones**: Manejo sessiones por medio de variables de PHP con control de acceso a rutas privadas.  
+- **Buenas prácticas de seguridad**: Hash de contraseñas, tokens expiran, accesos privados, validaciones en todo el sistema.  
 - **Diseño responsivo**: Adaptado para dispositivos móviles, tablets y escritorio.  
 
 ---

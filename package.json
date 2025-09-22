@@ -1,0 +1,28 @@
+{
+  "name": "proyecto-portafolio-balance-pro",
+  "version": "1.0.0",
+  "description": "App web bancaria para registrar gastos, ingresos y finanzas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "watch": "tailwindcss -i ./src/input.css -o ./public/dist/css/output.css --watch",
+    "minify": "tailwindcss -i ./src/input.css -o ./public/dist/output.css --minify"
+  },
+  "keywords": [
+    "PHP8",
+    "Tailwindcss",
+    "composer"
+  ],
+  "author": "Marco cruz",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-sass": "^6.0.1",
+    "imagemin-jpegtran": "^8.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-webp": "^8.0.0",
+    "sass": "^1.92.1",
+    "tailwindcss": "^3.4.17"
+  }
+}

@@ -6,6 +6,8 @@ página 404 personalizada y una página de mensajes dinámicos que muestra notif
 
 El objetivo es ofrecer una base sólida y segura para cualquier aplicación web que necesite gestión de usuarios, con buenas prácticas de seguridad y una experiencia de usuario clara.
 
+---
+
 ![imagen del proyecto](/public/dist/img/login.png)
 ![imagen del proyecto](/public/dist/img/crear.png)
 ![imagen del proyecto](/public/dist/img/restablecer.png)
@@ -14,17 +16,17 @@ El objetivo es ofrecer una base sólida y segura para cualquier aplicación web 
 
 ## 🚀 Funcionalidades principales
 
-- 🔐 **Inicio de sesión seguro**: Validación de credenciales en frontend y backend.  
-- 🆕 **Registro de cuenta**: Creación de usuario con confirmación por correo electrónico.  
-- 📧 **Confirmación de cuenta**: Activación mediante enlace enviado al email.  
-- 🔑 **Recuperación de contraseña**:  
+- **Inicio de sesión seguro**: Validación de credenciales en frontend y backend.  
+- **Registro de cuenta**: Creación de usuario con confirmación por correo electrónico.  
+- **Confirmación de cuenta**: Activación mediante enlace enviado al email.  
+- **Recuperación de contraseña**:  
   - Solicitud de restablecimiento con correo de verificación.  
   - Enlace temporal con expiración para asignar una nueva contraseña.  
-- ✅ **Mensajes personalizados**: Feedback dinámico según la situación (cuenta creada, sesión iniciada, confirmación pendiente, errores, etc.).  
-- 🚫 **Página 404 personalizada**: Manejo de rutas inexistentes con un diseño propio.  
-- 👨‍💻 **Gestión de sesiones**: Manejo de cookies o JWT con control de acceso a rutas privadas.  
-- 🛡️ **Buenas prácticas de seguridad**: Hash de contraseñas, tokens expiran, protección CSRF/XSS y limitación de intentos de login.  
-- 📱 **Diseño responsivo**: Adaptado para dispositivos móviles, tablets y escritorio.  
+- **Mensajes personalizados**: Feedback dinámico según la situación (cuenta creada, sesión iniciada, confirmación pendiente, errores, etc.).  
+- **Página 404 personalizada**: Manejo de rutas inexistentes con un diseño propio.  
+- **Gestión de sesiones**: Manejo de cookies o JWT con control de acceso a rutas privadas.  
+- **Buenas prácticas de seguridad**: Hash de contraseñas, tokens expiran, protección CSRF/XSS y limitación de intentos de login.  
+- **Diseño responsivo**: Adaptado para dispositivos móviles, tablets y escritorio.  
 
 ---
 
